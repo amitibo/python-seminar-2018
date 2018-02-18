@@ -1,0 +1,59 @@
+#+TITLE:       Python Seminar
+#+AUTHOR:      Amit Aides
+#+DATE:
+#+EMAIL:       amitaid@il.ibm.com
+#+STARTUP: indent
+
+* Python Seminar
+** Setup
+I had some problem install RISE on the base conda environment, so I created a new environment.
+   : conda create -n rise
+   : activate rise
+   : conda install -c damianavila82 rise
+   : conda install numpy scipy matplotlib pandas seaborn numba bokeh scikit-learn sympy scikit-image
+   : pip install ipywidgets
+   : jupyter nbextension enable --py widgetsnbextension
+   : pip install jupyterlab
+   : jupyter serverextension enable --py jupyterlab --sys-prefix
+   : jupyter labextension install @jupyter-widgets/jupyterlab-manager
+   : 
+** Resources
+- Rise [[http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html#/2][demo]].
+- Nicer (?) [[https://github.com/datitran/jupyter2slides][slides]]
+- [[https://github.com/e-gor/Reveal.js-Title-Footer][Title-Footer]]
+- [[http://www.scipy-lectures.org/][scipy-lectures]]
+- [[http://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/tree/master/][scientific-python-lectures]]
+- [[https://github.com/jakevdp/PythonDataScienceHandbook][Python datascience notebooks]]
+- [[https://github.com/wesm/pydata-book][Python for Data Analysis]]
+- [[https://www.kdnuggets.com/2016/04/top-10-ipython-nb-tutorials.html][top 10 ipython notebook tutorials]]
+** Sylabus
+1. The Jupyter Notebook/ Jupyter Lab
+   1. Basic use of the notebook
+     - Motivation
+     - Basic structure
+     - magic commands
+     - Interactive commands
+2. Basic Scientific Packages.
+   1. Numpy
+   2. Scipy
+3. Visualization.
+   1. Matplotlib for print ready 2D
+   2. Mayavi for 3D
+   3. seaborn
+1. The Jupyter Notebook/ Jupyter Lab (Continued)
+   1. Embedding visualizations
+   2. Interactivity
+4. Advanced Scientific Packages.
+   1. Pandas
+   2. Sympy
+   3. opencv/skimage
+5. Code Optimization
+   1. cython - Interfacing with C libraries
+   2. numba
+6. Interactive visualizations
+   1. Bokeh
+   2. [Optional] Holoviews
+   3. [Optional] Building declarative GUI.
+7. Machine Learning with Python
+   1. sklearn
+   2. pytorch
