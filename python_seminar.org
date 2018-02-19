@@ -16,7 +16,9 @@ I had some problem install RISE on the base conda environment, so I created a ne
    : pip install jupyterlab
    : jupyter serverextension enable --py jupyterlab --sys-prefix
    : jupyter labextension install @jupyter-widgets/jupyterlab-manager
-   : 
+   : pip install ipyvolume
+   : jupyter nbextension enable --py --sys-prefix ipyvolume
+   : jupyter nbextension enable --py --sys-prefix widgetsnbextension
 ** Resources
 - Rise [[http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html#/2][demo]].
 - Nicer (?) [[https://github.com/datitran/jupyter2slides][slides]]
@@ -26,6 +28,7 @@ I had some problem install RISE on the base conda environment, so I created a ne
 - [[https://github.com/jakevdp/PythonDataScienceHandbook][Python datascience notebooks]]
 - [[https://github.com/wesm/pydata-book][Python for Data Analysis]]
 - [[https://www.kdnuggets.com/2016/04/top-10-ipython-nb-tutorials.html][top 10 ipython notebook tutorials]]
+- [[http://amueller.github.io/][links]] to much material.
 ** Sylabus
 1. The Jupyter Notebook/ Jupyter Lab
    1. Basic use of the notebook
@@ -57,3 +60,4 @@ I had some problem install RISE on the base conda environment, so I created a ne
 7. Machine Learning with Python
    1. sklearn
    2. pytorch
+8. Summary
