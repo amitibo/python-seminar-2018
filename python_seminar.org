@@ -30,6 +30,7 @@ I had some problem install RISE on the base conda environment, so I created a ne
 - [[https://www.kdnuggets.com/2016/04/top-10-ipython-nb-tutorials.html][top 10 ipython notebook tutorials]]
 - [[http://amueller.github.io/][links]] to much material.
 ** Sylabus
+0. What is python and why you should care to be involved in a software project.
 1. The Jupyter Notebook/ Jupyter Lab
    1. Basic use of the notebook
      - Motivation
@@ -61,3 +62,6 @@ I had some problem install RISE on the base conda environment, so I created a ne
    1. sklearn
    2. pytorch
 8. Summary
+** Fixes:
+- Add a slide/s stating why and why not use python for science.
+- Find a way to globally increase the font size
