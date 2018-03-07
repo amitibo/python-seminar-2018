@@ -19,6 +19,7 @@ I had some problem install RISE on the base conda environment, so I created a ne
    : pip install ipyvolume
    : jupyter nbextension enable --py --sys-prefix ipyvolume
    : jupyter nbextension enable --py --sys-prefix widgetsnbextension
+To make the slides font somewhat bigger I followed the tips in here in this [[https://github.com/damianavila/RISE/issues/255][link]]. I replaced all occurances of 160% in the file "C:\ProgramData\Anaconda3\envs\rise\share\jupyter\nbextensions\rise\main.css" to 190%.
 ** Resources
 - Rise [[http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html#/2][demo]].
 - Nicer (?) [[https://github.com/datitran/jupyter2slides][slides]]
@@ -62,6 +63,6 @@ I had some problem install RISE on the base conda environment, so I created a ne
    1. sklearn
    2. pytorch
 8. Summary
-** Fixes:
-- Add a slide/s stating why and why not use python for science.
-- Find a way to globally increase the font size
+** TODO [1/2]
+- [X] Add a slide/s stating why and why not use python for science.
+- [ ] Find a way to globally increase the font size
