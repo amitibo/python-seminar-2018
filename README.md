@@ -24,7 +24,7 @@ $ jupyter notebook
 
 ## Presentation Mode
 
-To display in presentation mode, following the instructions to install and activate the [RISE](https://github.com/damianavila/RISE) extension.
+To display in presentation mode, follow the instructions to install and activate the [RISE](https://github.com/damianavila/RISE) extension.
 
 License
 ----
