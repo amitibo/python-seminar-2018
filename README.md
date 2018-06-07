@@ -38,4 +38,4 @@ Copyright (c) 2012-2013 Matplotlib Development Team; All Rights Reserved.
 
 The "SeattleCycling" notebook is based on a [post](http://jakevdp.github.io/blog/2015/07/23/learning-seattles-work-habits-from-bicycle-counts/) by Jake VanderPlas in his
 blog [Pythonic Perambulations](http://jakevdp.github.io). The contents of the [Pythonic Perambulations](http://jakevdp.github.io)
-blog are released under the [MIT license](https://opensource.org/licenses/MIT).
+blog are Copyright (c) 2012-2017 Jake VanderPlas.
